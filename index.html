@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentines</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>I love You Baby,</strong>
+                        <p>
+                            To my beautiful and caring girlfriend, thank you for loving me, understanding me, 
+                            and dedicating your time and effort to me. I appreciate you making the effort to tell me about your day. 
+                            I love you so much that you are always on my mind, no matter what I am doing. 
+                            I often reflect on the wonderful memories we've made together, and I hope to build many more. 
+                            You are the best thing that has happened to me, and I am grateful for all the love you have brought into my life.
+                            I am blessed to have a girlfriend like you who loves me, cares for me, and makes me the most fortunate person in this world. 
+                            I promise to always be there for you, to keep you happy and smiling, and to never stop wooing you.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
